@@ -11,9 +11,41 @@ body {
   background-color: #222;
 }
 
+video{
+  position: fixed;
+  z-index:0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 h2 {
+  position:absolute;
+  z-index:1;
   margin: 0;
-  padding-top: 210px;
+  padding-top: 150px;
+  width: 100%;
+  color: #f1f1f1;
+  font-size: 80px;
+  text-align: center;
+  font-family:'Courier New', Courier, monospace
+}
+
+h3{
+  font-family: 'Courier New', Courier, monospace;
+  position:absolute;
+  padding-top: 50px;
+  width: 100%;
+  color: #f1f1f1;
+  font-size: 80px;
+  text-align: center;
+}
+
+h8{
+  font-family: 'Courier New', Courier, monospace;
+  position:absolute;
+  padding-top: 800px;
   width: 100%;
   color: #f1f1f1;
   font-size: 80px;
